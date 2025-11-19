@@ -256,3 +256,22 @@ h1, h2, h3 {
         overflow: hidden;    /* はみ出した時の崩れ防止 */
     }
 }
+nav a {
+    position: relative;
+    padding-bottom: 3px;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #8C1D40;
+    transition: width 0.25s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
