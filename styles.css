@@ -246,3 +246,13 @@ nav a {
 h1, h2, h3 {
     font-family: "YuMincho", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
 }
+@media (max-width: 600px) {
+
+    /* 聖心女子大学（試作版）の折り返しを防ぐ */
+    .logo {
+        white-space: nowrap; /* 折り返し禁止 */
+        font-size: 1rem;     /* スマホ用に少しだけ小さめに */
+        max-width: 100%;     /* 幅からはみ出さない */
+        overflow: hidden;    /* はみ出した時の崩れ防止 */
+    }
+}
