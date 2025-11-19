@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Sans", "Meiryo", sans-serif;
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* 上部細い赤ライン */
+.topbar {
+    height: 8px;
+    background: #8C1D40; /* 大学公式の赤に近い */
+}
+
+/* ヘッダー */
+header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #8C1D40;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #8C1D40;
+}
+
+/* ヒーロー部分 */
+.hero {
+    background: linear-gradient(to bottom, #8C1D40, #b44a64);
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* セクション基本 */
+.section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.section h2 {
+    color: #8C1D40;
+    margin-bottom: 15px;
+}
+
+/* カードレイアウト */
+.cards {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #8C1D40;
+}
+
+/* 教員紹介 */
+.teacher {
+    background: #fff;
+    border-left: 6px solid #8C1D40;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* フッター */
+footer {
+    background: #8C1D40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
