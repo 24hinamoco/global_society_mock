@@ -358,3 +358,14 @@ nav a:hover::after {
         font-size: 1rem;
     }
 }
+/* === ヒーロー文章のスマホ最適化 === */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 1.8rem; /* タイトル少し小さく */
+    }
+
+    .hero p {
+        font-size: 0.95rem; /* 折り返し防止 */
+        white-space: nowrap; /* できるだけ折り返さない */
+    }
+}
