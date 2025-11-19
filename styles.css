@@ -275,3 +275,26 @@ nav a::after {
 nav a:hover::after {
     width: 100%;
 }
+@media (max-width: 600px) {
+
+    /* ヘッダーを縦方向に並べる */
+    .header-inner {
+        flex-direction: column;
+        align-items: flex-start; /* 左揃え */
+        gap: 8px; /* ロゴとメニューの間に余白 */
+    }
+
+    /* 聖心女子大学のロゴ */
+    .logo {
+        white-space: nowrap; /* 折り返し禁止 */
+        font-size: 1rem;
+    }
+
+    /* ナビゲーション（目次）を横スクロールに */
+    nav ul {
+        overflow-x: auto;
+        white-space: nowrap;
+        gap: 20px;
+        padding-bottom: 4px;
+    }
+}
