@@ -210,3 +210,25 @@ footer {
 
     /* すでに追加してあるスマホ用のコードはそのままでOK */
 }
+@media (max-width: 600px) {
+
+    /* --- スマホ版ナビを横スクロールにする --- */
+    nav ul {
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        gap: 20px;
+        padding-bottom: 8px;
+        -webkit-overflow-scrolling: touch; /* iPhoneで滑らかスクロール */
+    }
+
+    nav li {
+        flex: 0 0 auto; /* 幅を自動にして折り返しを防ぐ */
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        white-space: nowrap;
+        line-height: 1;
+    }
+}
