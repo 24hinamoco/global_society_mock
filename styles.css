@@ -319,7 +319,11 @@ nav a:hover::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.45);
+    background: linear-gradient(
+        rgba(0,0,0,0.05),   /* 上：ほぼ透明 */
+        rgba(0,0,0,0.25),   /* 中間：少し黒 */
+        rgba(0,0,0,0.45)    /* 下：濃いめの黒 */
+    );
 }
 
 /* テキストエリア */
