@@ -232,21 +232,17 @@ footer {
         line-height: 1;
     }
 }
-/* =============================
-   明朝体フォントに統一
-   ============================= */
-
 /* 上部タイトル（聖心女子大学） */
 .logo {
-    font-family: "YuMincho", "Yu Mincho", "Hiragino Mincho ProN", serif;
+    font-family: "YuMincho", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
 }
 
 /* ナビゲーション（目次） */
 nav a {
-    font-family: "YuMincho", "Yu Mincho", "Hiragino Mincho ProN", serif;
+    font-family: "YuMincho", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
 }
 
 /* 見出し（h1, h2, h3 全部） */
 h1, h2, h3 {
-    font-family: "YuMincho", "Yu Mincho", "Hiragino Mincho ProN", serif;
+    font-family: "YuMincho", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
 }
