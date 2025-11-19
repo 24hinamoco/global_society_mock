@@ -119,3 +119,36 @@ footer {
     padding: 20px;
     margin-top: 50px;
 }
+/* ここからスマホ調整 */
+@media (max-width: 600px) {
+
+    /* ヒーロー部分の調整 */
+    .hero {
+        padding: 50px 15px;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+
+    /* セクションの余白調整 */
+    .section {
+        margin: 30px auto;
+        padding: 0 15px;
+    }
+
+    /* カードの内側の余白調整 */
+    .card {
+        padding: 18px;
+    }
+
+    /* 見出しの文字サイズ調整 */
+    h2 {
+        font-size: 1.3rem;
+    }
+    h3 {
+        font-size: 1.1rem;
+    }
+}
