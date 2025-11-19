@@ -152,3 +152,41 @@ footer {
         font-size: 1.1rem;
     }
 }
+@media (max-width: 600px) {
+
+    /* ナビゲーション（メニュー）調整 */
+    nav ul {
+        gap: 12px; /* メニューの間隔を狭くする */
+    }
+
+    nav a {
+        font-size: 0.8rem; /* 文字を小さくする */
+    }
+
+    /* ↓すでに入れてあるスマホ調整はこのままでOK */
+    .hero {
+        padding: 50px 15px;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .section {
+        margin: 30px auto;
+        padding: 0 15px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+    h3 {
+        font-size: 1.1rem;
+    }
+}
